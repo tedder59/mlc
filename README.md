@@ -2,6 +2,7 @@
 
 ### 安装
 [relax (next relay)](https://github.com/mlc-ai/relax.git)
+
 [Docker镜像](https://hub.docker.com/repository/docker/tedder/mlc/general)
 
 ### 启动Jupyter
@@ -12,7 +13,8 @@
 ### 目录
 - 第一章 概述
 - 第二章 张量程序抽象（TensorIR）
-    1. prim_func(tvm.script.tir.prim_func)
+    1. 张量元函数(tvm.script.tir.prim_func)
+    2. IRModule(tvm.ir.module.IRModule)
     2. Schedule(tvm.tir.Schedule)
     3. 编译运行IRModule（tvm.build）
     4. 张量表达式（tvm.te)
