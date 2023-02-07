@@ -12,16 +12,18 @@
 
 ### 目录
 - 第一章 概述
+
 - 第二章 张量程序抽象（TensorIR）
     1. 张量元函数(tvm.script.tir.prim_func)
     2. IRModule(tvm.ir.module.IRModule)
     2. Schedule(tvm.tir.Schedule)
     3. 编译运行IRModule（tvm.build）
     4. 张量表达式（tvm.te)
-    
+
 - 第三章 端到端模型执行（relax）
-    1. relax script(tvm.script.relax)
-    2. relax (tvm.relax)
+    1. tvm.script.relax.function(call_tir)
+    2. extern prim_func
+    3. bind params(tvm.relax.transform.BindParams)
 
 - 第四章 自动程序优化（meta_schedule)
     1. sample_perfect_tile(tvm.tir.Schedule.sample_perfect_tile)
@@ -33,7 +35,6 @@
     2. function_map
     3. module_map
     4. map to high level script(tvm.script.relax)
-
 
 - 第六章 GPU硬件加速
     1. GPU常规优化
