@@ -26,9 +26,10 @@
     3. bind params(tvm.relax.transform.BindParams)
 
 - 第四章 自动程序优化（meta_schedule)
-    1. sample_perfect_tile(tvm.tir.Schedule.sample_perfect_tile)
-    2. tune_tir(tvm.meta_schedule.tune_tir)
-    3. 替换IRModule中的prim_func
+    1. sample_perfect_tile
+    2. tune_tir
+    3. space_generator
+    4. 替换IRModule中的prim_func(update_func)
 
 - 第五章 与机器学习框架整合（torch.fx -> IRModule)
     1. BlockBuilder
