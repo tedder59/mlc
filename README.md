@@ -31,11 +31,12 @@
     3. space_generator
     4. 替换IRModule中的prim_func(update_func)
 
-- 第五章 与机器学习框架整合（torch.fx -> IRModule)
-    1. BlockBuilder
-    2. function_map
-    3. module_map
-    4. map to high level script(tvm.script.relax)
+- 第五章 与机器学习框架整合（torch.fx)
+    1. 张量表达式（tvm.te)
+    2. BlockBuilder
+    3. map call_function
+    4. map call_module
+    5. map to relax(暂时还不能build，需要先lowering到prim_func)
 
 - 第六章 GPU硬件加速
     1. GPU常规优化
