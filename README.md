@@ -38,6 +38,11 @@
     4. map call_module
     5. map to relax(暂时还不能build，需要先lowering到prim_func)
 
+- 第七章 计算图优化
+    1. tvm.relax.PyExprMutator
+    2. lowering
+    3. fuse tir
+
 - 第六章 GPU硬件加速
     1. GPU常规优化
         - GPU线程绑定
@@ -48,9 +53,4 @@
         - tensorcore extern call
         - 汇编lowering（未完成）
 
-- 第七章 计算图优化
-    1. tvm.relax.expr_functor.mutator(tvm.relax.PyExprMutator)
-    2. tvm.ir.transform.module_pass
-    3. lowering(tvm.script.relax.function -> tvm.script.relax.call_tir)
-    4. fuse tir(tvm.script.relax.call_tir -> tvm.script.tir.prim_func)
-    5. tvm.relax.build
+
