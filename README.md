@@ -48,9 +48,8 @@
         - GPU线程绑定
         - GPU优化之Tile
         - GPU优化之Shared Memory(Cooperative Data Fetching)
+
     2. 专有设备优化（TensorCore）
         - register storage
         - tensorcore extern call
-        - 汇编lowering（未完成）
-
-
+        - lowering
